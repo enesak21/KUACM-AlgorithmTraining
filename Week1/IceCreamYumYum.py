@@ -1,10 +1,3 @@
-# The correct solution.
-numIceCream = int(input())
-iceCreams = [int(x) for x in input().split()] # This is how you can take an array of integers as input. 
-# Do not forget that inputs are given as strings. Hence you have to convert them.
-
-print(sum(iceCreams) - min(iceCreams))
-
 """
 DO NOT USE THIS ONE
 This is only for the sake of example. It is used to show "time limit exceed" problem.
